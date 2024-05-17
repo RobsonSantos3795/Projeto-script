@@ -13,7 +13,7 @@ function acessar() {
     
     if (rel == 'abacate' || rel == 'Abacate' || rel == 'ABACATE') {
        location.href = 'index2.html';
-    }else if (rel == 'melao' || rel == 'Melao' || rel == 'MELAO') {
+    }else if (rel == 'melancia' || rel == 'Melancia' || rel == 'MELANCIA') {
         location.href = 'index3.html';
 
         
