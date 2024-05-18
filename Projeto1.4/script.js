@@ -16,5 +16,5 @@ function entrar() {
 
 function sair() {
     a.innerText =  'Saiu';
-    a.style.background = 'green';
+    a.style.background = 'yellow';
 }
