@@ -1,0 +1,36 @@
+/*#container {
+    width: 300px;
+    height: 150px;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #000;
+}
+
+.item {
+    display: inline-block;
+    width: 120px;
+    height: 135px;
+    background-color: #4CAF50;
+    margin-right: 10px;
+}*/
+
+#container {
+    width: 300px;
+    height: 100px;
+    overflow-x: scroll; /* Permitindo rolagem horizontal */
+    white-space: nowrap;
+    border: 1px solid #000;
+    scrollbar-width: none; /* Firefox */
+}
+
+#container::-webkit-scrollbar {
+    display: none; /* Webkit (Chrome, Safari) */
+}
+
+.item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin-right: 10px;
+}
