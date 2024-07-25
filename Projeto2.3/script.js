@@ -1,6 +1,8 @@
 let valores = [8, 1, 7, 9, 4, 5, 3];
-valores.push(6);
+valores.push(2);
 valores.sort();
+valores[8]=10;
+
 console.log(valores);
 
 for(let pos = 0; pos < valores.length; pos++) {
