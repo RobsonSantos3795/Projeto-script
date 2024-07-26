@@ -9,7 +9,7 @@ for(let pos = 0; pos < valores.length; pos++) {
     console.log(`A posição ${pos} tem o valor ${valores[pos]}`);
 }
 
-pos = valores.indexOf(4);
+pos = valores.indexOf(9);
 
 if (pos == -1) {
     console.log('Não existe !')
