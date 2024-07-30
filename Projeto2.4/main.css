@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+}
