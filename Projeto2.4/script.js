@@ -30,3 +30,7 @@ function entrar() {
 function sair() {
     mudar.style.background = 'green';
 }
+
+function bb() {
+    location.href = "index2.html";
+}
